@@ -33,6 +33,13 @@ h2 {
 
 main {
     padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 footer {
@@ -44,4 +51,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
