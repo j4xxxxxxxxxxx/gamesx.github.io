@@ -9,27 +9,45 @@
 <body>
     <header>
         <h1>Welcome to GamesX</h1>
-        <nav>
-            <ul>
-                <li><a href="#games">Games</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main>
-        <section id="games">
-            <h2>Play a Game</h2>
-            <button id="playButton">Open Game</button>
-        </section>
-    </main>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Games List</h2>
+            <ul>
+                <li><a href="#" id="game1">Action Game 1</a></li>
+                <li><a href="#" id="game2">Adventure Game 1</a></li>
+                <li><a href="#" id="game3">Puzzle Game 1</a></li>
+                <li><a href="#" id="game4">Action Game 2</a></li>
+                <li><a href="#" id="game5">Adventure Game 2</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <h2>Select a Game</h2>
+            <p>Click on a game from the list to play!</p>
+        </main>
+    </div>
 
     <footer>
         <p>&copy; 2024 GamesX. All rights reserved.</p>
     </footer>
 
     <script>
-        document.getElementById('playButton').addEventListener('click', function() {
-            window.open('https://projectx.github.io', '893'); // Replace with your URL
+        document.getElementById('game1').addEventListener('click', function() {
+            window.open('https://example.com/action-game1', '_blank');
+        });
+        document.getElementById('game2').addEventListener('click', function() {
+            window.open('https://example.com/adventure-game1', '_blank');
+        });
+        document.getElementById('game3').addEventListener('click', function() {
+            window.open('https://example.com/puzzle-game1', '_blank');
+        });
+        document.getElementById('game4').addEventListener('click', function() {
+            window.open('https://example.com/action-game2', '_blank');
+        });
+        document.getElementById('game5').addEventListener('click', function() {
+            window.open('https://example.com/adventure-game2', '_blank');
         });
     </script>
 </body>
