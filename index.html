@@ -3,52 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GamesX</title>
+    <title>Game Showcase</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to GamesX</h1>
-    </header>
-
-    <div class="container">
-        <nav class="sidebar">
-            <h2>Games List</h2>
-            <ul>
-                <li><a href="#" id="game1">moto x3m</a></li>
-                <li><a href="#" id="game2">Adventure Game 1</a></li>
-                <li><a href="#" id="game3">Puzzle Game 1</a></li>
-                <li><a href="#" id="game4">Action Game 2</a></li>
-                <li><a href="#" id="game5">Adventure Game 2</a></li>
-            </ul>
+        <h1>Game Showcase</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="about.html">About</a>
         </nav>
-
-        <main class="main-content">
-            <h2>Select a Game</h2>
-            <p>Click on a game from the list to play!</p>
-        </main>
+    </header>
+    <div class="bubble">
+        <div class="game-list">
+            <h2>Available Games</h2>
+            <ul>
+                <li><a href="https://example.com/game1">Game 1</a></li>
+                <li><a href="https://example.com/game2">Game 2</a></li>
+                <li><a href="https://example.com/game3">Game 3</a></li>
+                <!-- Add more games here -->
+            </ul>
+        </div>
     </div>
-
-    <footer>
-        <p>&copy; 2024 GamesX. All rights reserved.</p>
-    </footer>
-
-    <script>
-        document.getElementById('game1').addEventListener('click', function() {
-            window.open('https://booksforedu.github.io/MX3M/', '_blank');
-        });
-        document.getElementById('game2').addEventListener('click', function() {
-            window.open('https://booksforedu.github.io/MX3M/', '_blank');
-        });
-        document.getElementById('game3').addEventListener('click', function() {
-            window.open('https://example.com/puzzle-game1', '_blank');
-        });
-        document.getElementById('game4').addEventListener('click', function() {
-            window.open('https://example.com/action-game2', '_blank');
-        });
-        document.getElementById('game5').addEventListener('click', function() {
-            window.open('https://example.com/adventure-game2', '_blank');
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
